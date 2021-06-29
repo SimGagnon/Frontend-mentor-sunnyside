@@ -12,8 +12,9 @@ html {
   padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   margin: 0;
+  font-family: "Fraunces", serif;
 }
 
 body {
@@ -57,5 +58,20 @@ li {
   background: url(/images/mobile/image-header.jpg) no-repeat center center;
   background-size: cover;
   height: 33.625rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__text h1 {
+  font-size: 2.5rem;
+  letter-spacing: 6.25px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 3.25rem;
 }
 /*# sourceMappingURL=style.css.map */
