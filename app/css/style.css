@@ -125,4 +125,46 @@ p {
   left: 0;
   opacity: 0.2;
 }
+
+.standout__image img {
+  width: 100%;
+}
+
+.standout__text {
+  padding: 4rem 1.5rem;
+}
+
+.standout__text h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.23px;
+  color: #23303e;
+}
+
+.standout__text p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  color: #818498;
+  letter-spacing: -0.13px;
+  line-height: 30px;
+}
+
+.standout__text h5 {
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  color: #23303e;
+  display: inline-block;
+  position: relative;
+}
+
+.standout__text h5::after {
+  content: "";
+  background: #fe7867;
+  position: absolute;
+  height: 0.625rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+}
 /*# sourceMappingURL=style.css.map */
