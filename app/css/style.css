@@ -31,9 +31,31 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  display: block;
 }
 
 li {
   list-style: none;
+}
+
+.header {
+  position: absolute;
+  padding: 2rem 1.5rem 0rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero {
+  background: url(/images/mobile/image-header.jpg) no-repeat center center;
+  background-size: cover;
+  height: 33.625rem;
 }
 /*# sourceMappingURL=style.css.map */
