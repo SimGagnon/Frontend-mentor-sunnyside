@@ -21,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
+  text-align: center;
 }
 
 body.noscroll {
@@ -37,6 +38,10 @@ a {
 
 li {
   list-style: none;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
 }
 
 .header {
@@ -67,11 +72,57 @@ li {
           align-items: center;
 }
 
+.hero__text {
+  margin: auto;
+}
+
 .hero__text h1 {
   font-size: 2.5rem;
   letter-spacing: 6.25px;
   color: white;
   text-transform: uppercase;
   margin-bottom: 3.25rem;
+}
+
+.transform__image img {
+  width: 100%;
+}
+
+.transform__text {
+  padding: 4rem 1.5rem;
+}
+
+.transform__text h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.23px;
+  color: #23303e;
+}
+
+.transform__text p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  color: #818498;
+  letter-spacing: -0.13px;
+  line-height: 30px;
+}
+
+.transform__text h5 {
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  color: #23303e;
+  display: inline-block;
+  position: relative;
+}
+
+.transform__text h5::after {
+  content: "";
+  background: #fad400;
+  position: absolute;
+  height: 0.625rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
 }
 /*# sourceMappingURL=style.css.map */
