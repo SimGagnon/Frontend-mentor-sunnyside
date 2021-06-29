@@ -1,0 +1,36 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,*::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    &.noscroll {
+        position: fixed; 
+        overflow-y: scroll;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
