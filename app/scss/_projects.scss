@@ -1,0 +1,18 @@
+.projects {
+
+    &__graphic {
+        background: url(/images/mobile/image-graphic-design.jpg) no-repeat center center;
+        background-size: cover;
+        @include projects-styling ($Darkdesaturatedcyan);
+    }
+
+    &__photography {
+        background: url(/images/mobile/image-photography.jpg) no-repeat center center;
+        background-size: cover;
+        @include projects-styling ($Darkblue);
+    }
+
+    .container {
+        padding: 24.875rem 1.5rem 3.6875rem 1.5rem; 
+    }
+}

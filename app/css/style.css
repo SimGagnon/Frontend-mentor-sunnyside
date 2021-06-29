@@ -167,4 +167,44 @@ p {
   left: 0;
   opacity: 0.2;
 }
+
+.projects__graphic {
+  background: url(/images/mobile/image-graphic-design.jpg) no-repeat center center;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.projects__graphic h4 {
+  color: #25564b;
+  margin-bottom: 1.6875rem;
+}
+
+.projects__graphic p {
+  font-size: 1rem;
+  color: #25564b;
+  letter-spacing: -0.11px;
+  line-height: 1.6875rem;
+}
+
+.projects__photography {
+  background: url(/images/mobile/image-photography.jpg) no-repeat center center;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.projects__photography h4 {
+  color: #19536b;
+  margin-bottom: 1.6875rem;
+}
+
+.projects__photography p {
+  font-size: 1rem;
+  color: #19536b;
+  letter-spacing: -0.11px;
+  line-height: 1.6875rem;
+}
+
+.projects .container {
+  padding: 24.875rem 1.5rem 3.6875rem 1.5rem;
+}
 /*# sourceMappingURL=style.css.map */
