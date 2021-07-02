@@ -1,0 +1,44 @@
+.testimonials {
+    padding: 4rem 1.5rem 5.375rem 1.5rem;
+
+    h4 {
+        font-size: 1rem;
+        letter-spacing: 4px;
+        color: $Grayishblue;
+        margin-bottom: 4rem;
+        text-transform: uppercase;
+    }
+
+    &__card {
+
+        img {
+            border-radius: 50%;
+            margin-bottom: 2rem;
+            width: 4.5rem;
+        }
+        
+        p {
+            font-size: 1.125rem;
+            letter-spacing: -0.13px;
+            line-height: 2rem;
+            color: $Verydarkgrayishblue;
+            margin-bottom: 2rem;
+        }
+
+        h5 {
+            font-size: 1.125rem;
+            margin-bottom: 0.5625rem;
+            letter-spacing: -0.13px;
+            color: $Verydarkdesaturatedblue;
+        }
+
+        small {
+            font-size: 0.875rem;
+            letter-spacing: -0.1px;
+            line-height: 25px;
+            margin-bottom: 4rem;
+            display: block;
+            color: $Grayishblue;
+        }
+    }
+}
