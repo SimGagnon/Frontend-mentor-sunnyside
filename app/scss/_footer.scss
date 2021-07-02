@@ -1,0 +1,48 @@
+.footer {
+    padding: 4rem 2.4375rem 5rem 2.4375rem;
+    background-color: hsl(168, 44%, 70%);
+
+    &__logo {
+        margin-bottom: 2.5rem;
+        
+        path {
+            fill: $Darkmoderatecyan;
+        }
+    }
+
+    &__nav {
+        margin-bottom: 5.5rem;
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            color: $Darkmoderatecyan;
+        }
+
+        li {
+            &:hover {
+                color: $White;
+            }
+            &:not(:last-child) {
+                margin-right: 3.5625rem;
+            }
+        }
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: center;
+
+        a:not(:last-child) {
+            margin-right: 1.75rem;
+
+            &:hover {
+
+                path {
+                    fill: $White;
+                }
+            }
+        }
+    }
+
+}
