@@ -97,6 +97,10 @@ button, li, a {
   margin-bottom: 2rem;
 }
 
+.header__links li:not(:last-child):hover {
+  color: black;
+}
+
 .header__links button {
   background: #fad400;
   padding: 1rem 2rem;
@@ -173,6 +177,11 @@ button, li, a {
   bottom: 0;
   left: 0;
   opacity: 0.2;
+  z-index: -1;
+}
+
+.transform__text h5:hover::after {
+  opacity: 1;
 }
 
 .standout__image img {
@@ -215,6 +224,11 @@ button, li, a {
   bottom: 0;
   left: 0;
   opacity: 0.2;
+  z-index: -1;
+}
+
+.standout__text h5:hover::after {
+  opacity: 1;
 }
 
 .projects__graphic {
@@ -280,7 +294,8 @@ button, li, a {
   letter-spacing: -0.13px;
   line-height: 2rem;
   color: #5a636c;
-  margin-bottom: 2rem;
+  max-width: 21.875rem;
+  margin: 0 auto 2rem auto;
 }
 
 .testimonials__card h5 {
@@ -299,16 +314,28 @@ button, li, a {
   color: #a7abae;
 }
 
-.gallery__grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 2fr;
-      grid-template-columns: 2fr 2fr;
+.gallery__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.gallery__grid img {
+.gallery__items picture {
+  width: 50%;
+}
+
+.gallery__items img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (min-width: 50em) {
+  .gallery__items {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 .footer {
@@ -318,6 +345,7 @@ button, li, a {
 
 .footer__logo {
   margin-bottom: 2.5rem;
+  display: block;
 }
 
 .footer__logo path {
@@ -336,6 +364,10 @@ button, li, a {
       -ms-flex-pack: center;
           justify-content: center;
   color: #458c7e;
+}
+
+.footer__nav li {
+  display: block;
 }
 
 .footer__nav li:hover {

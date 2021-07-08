@@ -4,6 +4,7 @@
 
     &__logo {
         margin-bottom: 2.5rem;
+        display: block;
         
         path {
             fill: $Darkmoderatecyan;
@@ -20,6 +21,8 @@
         }
 
         li {
+            display: block;
+
             &:hover {
                 color: $White;
             }

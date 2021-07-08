@@ -35,6 +35,10 @@
 
         li:not(:last-child) {
             margin-bottom: 2rem;
+
+            &:hover {
+                color: black;
+            }
         }
 
         button {
