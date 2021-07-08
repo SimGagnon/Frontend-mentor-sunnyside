@@ -30,8 +30,6 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    cursor: pointer;
-    display: block;
 }
 
 li {
@@ -40,5 +38,13 @@ li {
 
 p,small {
     font-family: $Barlow;
+}
+
+.open {
+    opacity: 0.5;
+}
+
+button,li,a {
+    cursor: pointer;
 }
 

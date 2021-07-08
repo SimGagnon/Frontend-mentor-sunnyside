@@ -33,16 +33,16 @@
         display: flex;
         justify-content: center;
 
-        a:not(:last-child) {
-            margin-right: 1.75rem;
-
+        a {
             &:hover {
-
                 path {
                     fill: $White;
                 }
             }
+            
+            &:not(:last-child) {
+                margin-right: 1.75rem;
+            }
         }
     }
-
 }
